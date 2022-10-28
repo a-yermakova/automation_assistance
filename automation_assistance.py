@@ -185,20 +185,24 @@ def add_similar_statement_tags_from_config(statement_block: str, data_source: st
         :type list_of_equivalents: list
     """
     # создаём путь до общей папки с конфигами
-    data_folder = Path(__file__).parent.parent.resolve().joinpath('data')
+    # data_folder = Path(__file__).parent.parent.resolve().joinpath('data')
     match statement_block:
         case 'Баланс':
             config_name = 'balance_config.ini'
-            path_to_config = data_folder.joinpath(config_name)
+            # path_to_config = data_folder.joinpath(config_name)
+            path_to_config = config_name
         case 'Финансовые результаты':
             config_name = 'income_config.ini'
-            path_to_config = data_folder.joinpath(config_name)
+            # path_to_config = data_folder.joinpath(config_name)
+            path_to_config = config_name
         case 'Сегменты':
             config_name = 'segments_config.ini'
-            path_to_config = data_folder.joinpath(config_name)
+            # path_to_config = data_folder.joinpath(config_name)
+            path_to_config = config_name
         case 'Отчет о движении денежных средств':
             config_name = 'cashflow_config.ini'
-            path_to_config = data_folder.joinpath(config_name)
+            # path_to_config = data_folder.joinpath(config_name)
+            path_to_config = config_name
 
     match data_source:
         case 'XBRL':
