@@ -8,3 +8,10 @@
 - [automation_web_gui.py](https://github.com/a-yermakova/automation_assistance/blob/main/automation_web_gui.py "automation_web_gui.py") - веб интерфейс приложения, реализованный с помощью библиотеки [streamlit](https://docs.streamlit.io/).
 
 - [automation_assistance_exceptions.py](https://github.com/a-yermakova/automation_assistance/blob/main/automation_assistance_exceptions.py "automation_assistance_exceptions.py") - модуль пользовательских исключений.
+
+- [balance_config.ini](https://github.com/a-yermakova/automation_assistance/blob/main/balance_config.ini "balance_config.ini"), [cashflow_config.ini](https://github.com/a-yermakova/automation_assistance/blob/main/cashflow_config.ini "cashflow_config.ini"), [income_config.ini](https://github.com/a-yermakova/automation_assistance/blob/main/income_config.ini "income_config.ini"), 
+[segments_config.ini](https://github.com/a-yermakova/automation_assistance/blob/main/segments_config.ini "segments_config.ini") - сокращенная версия конфигурационных файлов, приравнивает одинаковые по смыслу названия статей.
+
+#### Просмотр приложения доступен по ссылке:
+
+https://a-yermakova-automation-assistance-automation-web-gui-m86l5j.streamlitapp.com/
